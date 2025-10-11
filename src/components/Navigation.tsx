@@ -26,8 +26,8 @@ const Navigation: React.FC<NavigationProps> = ({ scrolled }) => {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <a href="#home" className="flex items-center space-x-0.5 font-bold md:relative md:left-auto">
-          <img src={logo} alt="CloudNest Logo" className="h-36 w-36 overflow-hidden pt-4 pl-0 pr-6"/>
-            <span className="text-2xl font-bold text-secondary-900 pr-18 md:pr-auto">CloudNest</span>
+          <img src={logo} alt="CloudVault Logo" className="h-36 w-36 overflow-hidden pt-4 pl-0 pr-6"/>
+            <span className="text-2xl font-bold text-secondary-900 pr-18 md:pr-auto">CloudVault</span>
           </a>
 
           {/* Desktop Navigation */}

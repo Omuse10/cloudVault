@@ -19,23 +19,50 @@ const TeamMember: React.FC<TeamMemberProps> = ({ member }) => {
         <img 
           src={member.image}
           alt={member.name} 
-          className="w-full h-80 object-cover object-center"
+          className="w-full h-80 object-cover object-center mx-auto"
         />
         
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <div className="absolute bottom-0 left-0 right-0 p-6">
             <div className="flex space-x-3">
-              <a href="#" className="bg-white/20 hover:bg-white/30 p-2 rounded-full backdrop-blur-sm transition-colors">
+              {/* Email Link */}
+              <a 
+                href={`mailto:${member.email}`} 
+                className="bg-white/20 hover:bg-white/30 p-2 rounded-full backdrop-blur-sm transition-colors"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <Mail className="h-5 w-5 text-white" />
               </a>
-              <a href="#" className="bg-white/20 hover:bg-white/30 p-2 rounded-full backdrop-blur-sm transition-colors">
+
+              {/* LinkedIn Link */}
+              <a 
+                href={`https://www.linkedin.com/in/${member.linkedin}`} 
+                className="bg-white/20 hover:bg-white/30 p-2 rounded-full backdrop-blur-sm transition-colors"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <Linkedin className="h-5 w-5 text-white" />
               </a>
-              <a href="#" className="bg-white/20 hover:bg-white/30 p-2 rounded-full backdrop-blur-sm transition-colors">
+
+              {/* Twitter Link */}
+              <a 
+                href={`https://twitter.com/${member.twitter}`} 
+                className="bg-white/20 hover:bg-white/30 p-2 rounded-full backdrop-blur-sm transition-colors"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <Twitter className="h-5 w-5 text-white" />
               </a>
-              <a href="#" className="bg-white/20 hover:bg-white/30 p-2 rounded-full backdrop-blur-sm transition-colors">
+
+              {/* GitHub Link */}
+              <a 
+                href={`https://github.com/${member.github}`} 
+                className="bg-white/20 hover:bg-white/30 p-2 rounded-full backdrop-blur-sm transition-colors"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <Github className="h-5 w-5 text-white" />
               </a>
             </div>

@@ -28,7 +28,7 @@ const Team: React.FC = () => {
             animate={inView ? { opacity: 1 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Meet the experts behind CloudNest's innovative solutions
+            Meet the experts behind CloudVault's innovative solutions
           </motion.p>
         </div>
 

@@ -8,7 +8,10 @@ export const team: TeamMember[] = [
     email: 'gomuse65@gmail.com',
     phone: '0743402487',
     image: 'https://i.postimg.cc/c4HQ0rpy/omuse.jpg',
-    division: 'creative'
+    division: 'creative',
+    linkedin: 'geoffrey-omuse-210abb371',
+    twitter: 'Iseecream7',
+    github: 'omuse10'
   },
   {
     id: 2,
@@ -17,24 +20,33 @@ export const team: TeamMember[] = [
     email: 'nyamburatyra453@gmail.com',
     phone: '0745811338',
     image: 'https://i.postimg.cc/pLL1NWZp/tyra.jpg',
-    division: 'cloud'
+    division: 'cloud',
+    linkedin: 'tyra-nyambura',
+    twitter: 'tyranyambura',
+    github: 'BRAKES21'
   },
   {
     id: 3,
     name: 'Kiptum Victor',
     role: 'Software Engineer, DevOps Specialist, CI/CD Expert, Cloud Automation Engineer',
-    email: 'kiptumvictor@gmail.com',
+    email: 'victorkiptum85@gmail.com',
     phone: '+254732572192',
-    image: 'https://i.postimg.cc/RFqn3LBD/vic.jpg',
-    division: 'cloud'
+    image: 'https://i.postimg.cc/cL70sPLV/IMG-20240220-WA0038.jpg',
+    division: 'cloud',
+    linkedin: 'victor-kiptum-799b0b24b',
+    twitter: 'prim_e6',
+    github: 'Prime-victor'
   },
   {
     id: 4,
-    name: 'Myra ayiera',
-    role: 'Software Developer, creative strategist & Digital Marketing Specialist',
+    name: 'Myra Ayiera',
+    role: 'Software Developer, Creative Strategist & Digital Marketing Specialist',
     email: 'ayieramyra@gmail.com',
     phone: '+254 740 958201',
-    image: 'https://i.postimg.cc/VvCrgs59/myra.jpg',
-    division: 'creative'
+    image: 'https://i.postimg.cc/fTzYMQC3/myra-heic.avif',
+    division: 'creative',
+    linkedin: 'miriam-ayiera-295145146',
+    twitter: 'myraayiera',
+    github: 'Ayiera-20'
   }
 ];

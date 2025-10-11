@@ -14,6 +14,9 @@ export interface TeamMember {
   phone: string;
   image: string;
   division: 'creative' | 'cloud';
+  linkedin: string;
+  twitter: string;
+  github: string;
 }
 
 export interface NavLink {

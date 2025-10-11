@@ -69,7 +69,7 @@ const About: React.FC = () => {
             <motion.div variants={itemVariants}>
               <h3 className="text-2xl font-semibold mb-4 text-secondary-900">Our Story</h3>
               <p className="text-secondary-700 leading-relaxed">
-                CloudNest is a dynamic partnership between Geoffrey Omuse and Tyra Nyambura, dedicated to delivering a wide range of digital and cloud-based solutions. Our goal is to provide high-quality, innovative, and efficient services that help businesses grow and thrive in the digital space.
+                CloudVault is a dynamic partnership between Geoffrey Omuse, Tyra Nyambura, Myra Ayiera, and Victor Kiptum dedicated to delivering a wide range of digital and cloud-based solutions. Our goal is to provide high-quality, innovative, and efficient services that help businesses grow and thrive in the digital space.
               </p>
             </motion.div>
 
@@ -96,7 +96,7 @@ const About: React.FC = () => {
             <div className="relative rounded-lg overflow-hidden shadow-xl">
               <img 
                 src="https://i.postimg.cc/9MKLMCCT/Safeguard-Your-Business-with-Cloud-Backup-and-Managed-Services-in-Lexington.jpg" 
-                alt="CloudNest Team" 
+                alt="CloudVault Team" 
                 className="w-full h-auto"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary-900/60 to-transparent"></div>

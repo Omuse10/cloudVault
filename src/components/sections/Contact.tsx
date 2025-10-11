@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
   });
 
   const form = useRef<HTMLFormElement>(null);
-  const [successMessageVisible, setSuccessMessageVisible] = useState(false);
+  // Removed unused successMessageVisible state
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [formData, setFormData] = useState({
@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
       .then(
         () => {
           console.log('SUCCESS!');
-          setSuccessMessageVisible(true);
+          // Removed setSuccessMessageVisible as it is unused
           setSubmitSuccess(true);
           setFormData({ name: '', email: '', subject: '', message: '' }); // Reset form data
           setIsSubmitting(false); // Reset loading state
