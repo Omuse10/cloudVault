@@ -48,5 +48,5 @@ export const team: TeamMember[] = [
     linkedin: 'miriam-ayiera-295145146',
     twitter: 'myraayiera',
     github: 'Ayiera-20'
-  }
+  },
 ];
