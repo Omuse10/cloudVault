@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             <div style={{ width: 100, height: 100, overflow: 'hidden' }}>
               <img src={logo} style={{ width: 200, height: 'auto', marginLeft: 0 }} />
             </div>
-              <span className="text-xl font-bold">CloudNest</span>
+              <span className="text-xl font-bold">CloudVault</span>
             </div>
             <p className="text-secondary-300 mb-4">
               Creative Digital Solutions Meets Scalable Cloud Engineering.
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-primary-400 mt-0.5" />
-                <span className="text-secondary-300">cloudnest@support.com</span>
+                <span className="text-secondary-300">cloudVault@support.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <Phone className="h-5 w-5 text-primary-400 mt-0.5" />
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-secondary-800 mt-12 pt-8 text-center text-secondary-400">
-          <p>&copy; {new Date().getFullYear()} CloudNest. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} CloudVault. All rights reserved.</p>
         </div>
       </div>
     </footer>
