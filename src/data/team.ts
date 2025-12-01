@@ -7,7 +7,7 @@ export const team: TeamMember[] = [
     role: 'Software Developer, Creative Director & UI/UX Designer',
     email: 'gomuse65@gmail.com',
     phone: '0743402487',
-    image: 'https://i.postimg.cc/c4HQ0rpy/omuse.jpg',
+    image: 'https://i.postimg.cc/c4wKmV0Q/Whats-App-Image-2025-11-21-at-9-25-34-PM.jpg',
     division: 'creative',
     linkedin: 'geoffrey-omuse-210abb371',
     twitter: 'Iseecream7',

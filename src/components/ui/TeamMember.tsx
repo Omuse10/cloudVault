@@ -19,7 +19,7 @@ const TeamMember: React.FC<TeamMemberProps> = ({ member }) => {
         <img 
           src={member.image}
           alt={member.name} 
-          className="w-full h-80 object-cover object-center mx-auto"
+          className="w-full h-96 object-cover object-center mx-auto max-w-full"
         />
         
         {/* Overlay */}
